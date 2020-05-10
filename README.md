@@ -6,7 +6,7 @@ https://github.com/rajeshhereforyou/eureka-client-demo
 
 ## Pre-requisite
 
-1. Please make sure that the port 8761 is available on your local machine. If you are using mac, you can check the port availability using below command
+1. Before building and deploying this app, Please make sure that the port 8761 is available on your local machine because we are deploying our sample Eureka Server on the 8761 (default Eureka port). If you are using mac, you can check the port availability using below command
 
 lsof -i :8761
 
@@ -25,14 +25,9 @@ Step 5: Now, if you are interested to see your Eureka server status, you can do 
 
 http://localhost:8761/eureka/status
 
+Step 6: As we have Eureka server up and running. Let's build and deploy a sample Eureka client by following instructions in 'README.md' of the below git repo
 
-Step 6: As we have Eureka server up and running. Let's build and deploy a sample Eureka client by following instructions at 
-
-https://github.com/rajeshhereforyou/eureka-client-demo/blob/master/README.md
-
-You can find the sample Eureka Client code here
-
-https://github.com/rajeshhereforyou/eureka-client-demo.git
+https://github.com/rajeshhereforyou/eureka-client-demo/
 
 Step 7: Once the sample Eureka client is up and running, it should register itself as client with your sample Eureka Server and you can see all the registered clients (with your sample Eureka server) at 
 
