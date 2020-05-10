@@ -33,10 +33,10 @@ Step 7: Once the sample Eureka client is up and running, it should register itse
 
 http://localhost:8761/eureka/apps
 
-If you are interested to see the eureka server configuration, you can see the code at '/src/main/resources/application.yml' in this repo
+That's it. Now, you know the basic configuration of setting up a Eureka server, creating an Spring boot to as Eureka client and monitor it's status.
 
+If you are interested to see the eureka server configuration, you can find the code at '/src/main/resources/application.yml' in this repo.
 
-Here are couple of REST endpoints if you are interested to see your app details as a eureka client
 
 
 
