@@ -1,17 +1,17 @@
-#What is this?
+# What is this?
 
 This is a simple Eureka Server using Spring Boot 2. You can find the sample Eureka client code here
 
 https://github.com/rajeshhereforyou/eureka-client-demo
 
-###Pre-requisite
+## Pre-requisite
 
 1. Please make sure that the port 8761 is available on your local machine. If you are using mac, you can check the port availability using below command
 
 lsof -i :8761
 
 
-##How to clone and run this app?
+## How to clone and run this app?
 
 Step 1: Clone this repo at https://github.com/rajeshhereforyou/eureka-server-demo.git
 
