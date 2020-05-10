@@ -21,15 +21,18 @@ Step 3: Now, you can run the app using Spring boot 'bootRun' command
 
 Step 4: Once you have the app up and running, you can the health of the app using 'http://localhost:8761/actuator/health'. This should return '{"status":"UP"}'
 
-Step 5: Now, if you are interested to see your Eureka server status, you can do that using below URL
+
+### Now, if you are have a question on where can i see my sample Eureka server status, hit the below URL
 
 http://localhost:8761/eureka/status
 
-Step 6: As we have Eureka server up and running. Let's build and deploy a sample Eureka client by following instructions in 'README.md' of the below git repo
+As we have Eureka server up and running. Let's build and deploy a sample Eureka client by following instructions in 'README.md' of the below git repo
 
 https://github.com/rajeshhereforyou/eureka-client-demo/
 
-Step 7: Once the sample Eureka client is up and running, it should register itself as client with your sample Eureka Server and you can see all the registered clients (with your sample Eureka server) at 
+Step 7: Once the sample Eureka client is up and running, it should register itself as client with your sample Eureka Server.
+ 
+### Now, if you are have a question on where can i see all the registered clients (with your sample Eureka server), hit the below URL 
 
 http://localhost:8761/eureka/apps
 
